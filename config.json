@@ -1,0 +1,27 @@
+{
+    "users": {
+        "172.31.0.0/16": {
+            "host": "172.31.10.154",
+            "db": "users_db",
+            "port": 27017,
+            "collection": "user_info"
+        },
+        "192.168.0.0/16": {
+            "host": "localhost",
+            "db": "users_db",
+            "port": 27017,
+            "collection": "user_info"
+        }
+    },
+    "details": {
+        "172.31.0.0/16": {
+            "host": "172.31.10.42",
+            "db": "details_db",
+            "port": 37027
+        },
+        "192.168.0.0/16": {
+            "host": "localhost",
+            "port": 27017
+        }
+    }
+}
